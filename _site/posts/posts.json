@@ -1,0 +1,189 @@
+[
+  {
+    "path": "posts/2021-02-22-a-new-website/",
+    "title": "A new website!",
+    "description": "What could possibly go wrong?",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2021-02-22",
+    "categories": [],
+    "contents": "\nTesting… testing… one two three…\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-23T09:40:54+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2019-12-10-next-generation-biologists-cloud-computing-workshop/",
+    "title": "Next generation biologists cloud computing workshop",
+    "description": "Out last workshop in the series.",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2019-12-10",
+    "categories": [],
+    "contents": "\nWe are happy to announce the next - and likely the last (!) - workshop in our “Next Generation Biologists” series. During two days in January 16-17 (Thursday and Friday) at the University of Leeds, we will practice working on remote servers, setting up virtual machines and installing remote working environments such as R Studio. As usual, application procedure and more information is available at nextgenbiologists.org.\nThere is no registration deadline this time - you can register up to the last day before the workshop - but we will start sending confirmations of participation on January 6th. The registration form is open - apply away!\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-23T09:41:10+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2019-09-16-hello-haeyam/",
+    "title": "Hello, Haeyam!",
+    "description": "A new BrykLab lab member :-).",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2019-09-16",
+    "categories": [],
+    "contents": "\nWe are very happy to welcome Haeyam Taiy, a new member of the BrykLab, for her year-long research placement with our group. Haeyam is a current student at Huddersfield and very unwisely cleverly decided to spend this year getting to grips with all things bioinformatics! She will be working with our Apodemus RAD-seq data to analyse various carryover sequences in there, primarily those from ticks, Borrelia bacteria and hantaviruses.\nWelcome, Hayeam :-)\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-23T09:41:17+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2018-11-18-congratulations-dr-martin-cerezo/",
+    "title": "Congratulations, Dr Martin Cerezo",
+    "description": "Marisa is now a Doctor!",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2018-11-18",
+    "categories": [],
+    "contents": "\nIt is my great pleasure to congratulate Marisa on successful completion of her doctoral thesis “European phylogeography and genetic structure of wood and yellow-necked mice Apodemus flavicollis and Apodemus sylvaticus based on whole-genome, high-density genotyping by restriction-site-associated DNA sequencing (RAD-seq)”. She is now Dr Maria Luisa Martin Cerezo and the first alumni of the BrykLab. Dr Martin Cerezo is now a postdoctoral researcher in Wright’s lab at the University of Linköping in Sweden, where she is working on genomic signatures of feralization in chickens (field work in Bermuda included!) :-)\nMarisa with her supervisor on graduation day :-)Bloody well done Marisa! All the best in your research future!\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-23T09:42:04+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2018-05-27-announcing-programming-for-evolutionary-biology-conference/",
+    "title": "Announcing Programming for Evolutionary Biology Conference",
+    "description": "Buttermere, Lake District, 2-6 September, 2018.",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2018-05-27",
+    "categories": [],
+    "contents": "\nUPDATE 20th July 2018 Thanks to generous funding from our supporting organisations, The Genetics Society and The Company of Biologists, we are able to keep the registration open. If you still thinking of applying, please send us an email, we may be able to accommodate you!\n\nAs you might have heard elsewhere ;-), this Autumn we are organising a PGR and ECR-led conference: Programming for Evolutionary Biology Conference. From September 2-6 we are taking over an entire YHA Hostel in Buttermere in the Lake District for four days of talks and workshops. Here is the excerpt from the conference website:\nThe Programming for Evolutionary Biology (PEB) conference brings together scientists broadly interested in applying bioinformatic tools to answer evolutionary and ecological questions. Unlike other conferences featuring mostly talks and poster sessions, it aims to serve as a platform for discussing common programming pitfalls encountered during research and features workshops to further develop participants’ bioinformatic skills.\nThe conference is informal and cheap (£275 all inclusive except travel), so go ahead and apply :-): - Preliminary programme (you can propose your own workshop idea at registration) - Registration form email us if you’re still thinking of applying - Payment form deadline at midnight on July 31st\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-23T09:42:13+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2017-10-26-hello-alex/",
+    "title": "Hello, Alex!",
+    "description": "A new BrykLab lab member :-).",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2017-10-26",
+    "categories": [],
+    "contents": "\nWe are very happy to welcome the third member (!) of our merry band, Alexandra Siddall, who joins us from the wrong other side of the Pennines for her year-long research placement at the University of Huddersfield. Alex is a current student at Huddersfield, inexplicably drawn to all things synthetic biology ;-) and so she decided to take over my UNIGEMS project and support NCBE at the University of Reading in the development of the few missing parts in the Wellcome kits.\nWelcome, Alex :-)\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-23T09:42:20+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2017-10-25-hello-rohan/",
+    "title": "Hello, Rohan!",
+    "description": "A new BrykLab lab member :-).",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2017-10-25",
+    "categories": [],
+    "contents": "\nWe are very happy to welcome Rohan Raval, a new PhD student in Huddersfield, who came to Huddersfield from the depths of the Silwood Park in the faraway lands of somewhere west of London. Not only he used to do a lot of field work with Apodemus, but he also did his Masters in Computational Methods in Ecology and Evolution at Imperial College London, studying genomic signature of sexual dimorphism in Drosophila. He will be working on genetics and genomics of metabolic rates in A. flavicolis.\nWelcome, Rohan :-)\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-23T09:42:25+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2017-03-08-phd-position-available-at-bryklab/",
+    "title": "Fully-funded PhD position on comparative genomics of Apodemus",
+    "description": "Genetics and genomics of metabolism in Apodemus flavicollis",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2017-03-08",
+    "categories": [],
+    "contents": "\nThe BrykLab has* a fully-funded PhD position available to continue and expand our work on Apodemus genomics, from phylogeography to genome-wide scans for positive selection. The position is officially adverstised on findaphd.com and the deadline in on March 26th (!).\n(*The university announced 15 projects in total but only 8 studentships, and only projects that will attract the best candidates overall will be awarded the positions.)\nBelow is a slightly modified text of the announcement that will go live any day now on evoldir.\nRodents from the genus Apodemus are the most common mammals in the Palearctic and an attractive subject for evolutionary and molecular studies: they are likely to be under multitude of selective pressures in different habitats, they contribute to the spread of Lyme disease and tick–borne encephalitis and harbour extra (“B”) chromosomes. However, the genomic and genetic resources for their studies remain very limited.\nWe are a young and small research group that has recently embarked on establishing phylogenetic and phylogeographic relationships between Apodemus populations in Europe based on whole-genome genotypes. Thanks to collaboration with researchers in Poland, Germany and Belgium we are presently acquiring and analysing whole-genome high-density genotyping data (ddRAD-seq) from hundreds of individuals across Europe. Analysis of this data will inform future directions of our studies: phylogeography of sylvaticus and flavicolis, diversity and divergence of their populations, SNP-based genetic maps and whole-genome scans for signatures of positive selection.\nWe are looking for an independent candidate with keen interest in evolution and computational approaches to study genetic variation on a population scale. Familiarity with UNIX/Linux, command line or R is a plus, as is research experience, preferably on a master’s level, but strong B.Sc. graduates are also encouraged to apply. Majority of the project involves computational analyses of large datasets, but it has a small wet-lab component, such as preparation of DNA and/or RNA sequencing libraries.\nThe PhD student will be associated with the Evolutionary and Environmental Genomics Group at the Department of Biological Sciences and embedded with PhD students in the Leverhulme Doctoral Training Centre who work on human and cattle phylogeography, archaeoentomology, yeast transposable elements and evolution of choanoflagellates using genomic approaches. The studentship requires candidates to undertake small teaching duties during the PhD. For more information about us and our work, please go to bryklab.net/research/ and Jarek Bryk’s staff profile. Candidates are encouraged to contact the project’s supervisor, Dr Jarek Bryk, directly with informal questions and requests.\nTo apply, send an email outlining your motivation and experience to j.bryk@hud.ac.uk (CC’d to f.cross@hud.ac.uk), including a CV and the names of two referees. You also need to complete an on-line application. For more details about the application process please go to the official announcement on findaphd.com.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-23T09:44:45+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2017-02-04-my-talk-at-yorkshire-wildlife-trust/",
+    "title": "My talk at Yorkshire Wildlife Trust",
+    "description": "A Cake and Nature Talk.",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2017-02-04",
+    "categories": [],
+    "contents": "\n\nI was recently invited by Kara Jackson from the Yorkshire Wildlife Trust (YWT) to give a talk on our research and/or evolutionary biology. I wasn’t aware of the YWT before, but it turns out they own a big farm over at Berry Brow, which they maintain to showcase agricultural practice that respects and enable wildlife to flourish. It’s called Stirley Community Farm and it includes a community centre, where they recently launched “Cake and Nature” series of talks—hence my visit.\nThe talk will take place on 16th February at 7pm (map) and I will be talking on how we use DNA to study evolution. The full abstract of my talk is below:\nIn the last decade, biological sciences have undergone a revolution: due to breakthrough developments in sequencing technologies—the capability to read DNA—it is now possible to obtain complete genetic information on a population scale. Apart from more mainstream application of these advances, such as genealogy or identification of disease–causing mutations, one of the most exciting is our ability to study patterns of genetic variation in wild populations of almost any species. This ability, coupled with studies of the genetics material of long–extinct organisms, allows unprecedented insight into the evolutionary history of many species.\nI will provide an overview of how we study molecular basis of evolutionary change by looking at DNA of modern and extinct species through several examples, from metabolism of bacteria and wings of peppered moths through the beaks of Darwin’s finches to the fur of beach mice and others, including the most self-obsessed of the apes, humans.\nThese advances are being developed on the background of our ability to also synthesize DNA of a desired sequence and modify DNA in situ to an extraordinary degree. Overall, they have turned biology into a sophisticated, statistics–based and data–driven discipline not unlike high-energy physics, justifying the expectations that the XXI century will be the age of biology.\nSee you there!\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-23T09:42:50+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2015-10-09-hello-marisa/",
+    "title": "Hello, Marisa!",
+    "description": "A new BrykLab lab member :-).",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2015-10-09",
+    "categories": [],
+    "contents": "\nI am very happy to welcome Marisa Martín Cerezo, a new PhD student in Huddersfield, with whom I will be working on the Apodemus and Mustela projects. Marisa came to The North from Madrid, where she did her Masters on mtDNA-based phylogeography of snails from the Caenogastropoda clade, and subsequently worked on extremophilic lichens Circinaria gyrosa (in outer space!). She also studied invasive biology of fire ants Solenopsis geminata at Galapagos Islands (!). Unfortunately, she supports the other club from Madrid, but hey, nobody’s perfect.\n\nWelcome, Marisa :-)\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-23T09:43:14+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2015-07-14-hello-world/",
+    "title": "Hello, world!",
+    "description": "First post!",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2015-07-14",
+    "categories": [],
+    "contents": "\nWelcome to the website of a research group of Dr Jarek Bryk at the University of Huddersfield in the north of England.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-23T09:43:27+00:00",
+    "input_file": {}
+  }
+]
