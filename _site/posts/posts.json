@@ -11,10 +11,10 @@
     ],
     "date": "2021-02-22",
     "categories": [],
-    "contents": "\nTesting… testing… one two three…\n\n\n\n",
+    "contents": "\nTesting… testing… one two three… Please expect gremlins and other bugs in the next few weeks as I am updating the site and moving things over…\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-02-23T09:40:54+00:00",
-    "input_file": {}
+    "last_modified": "2021-02-23T11:28:21+00:00",
+    "input_file": "a-new-website.utf8.md"
   },
   {
     "path": "posts/2019-12-10-next-generation-biologists-cloud-computing-workshop/",
