@@ -1,6 +1,6 @@
 ---
 title: "About me"
-output: html_document
+description: |
 ---
 
 ```{r setup, include=FALSE}
