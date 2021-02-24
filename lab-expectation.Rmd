@@ -1,0 +1,76 @@
+---
+title: "Lab expectations"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I very much like the idea of having expectations and responsibilities to graduate and undergraduate students in the lab explicitly stated. Even though it seems quite obvious, I first heard it from [Terry McGlynn](http://leaflitter.org/terrymcglynn.html) at [Small Pond Science](https://smallpondscience.com/2014/11/17/setting-formal-expectations-for-lab-members/) and from [Melissa Wilson–Sayres](http://www.wilsonsayreslab.org/lab/#/lab-members/) on Twitter (you should follow [them](https://twitter.com/hormiga) [both](https://twitter.com/mwilsonsayres), by the way, they are awesome). And now, with some time as a PI under my belt and having some experience with both graduate and final-year undergraduate students, I can set up my own list (the one below is mostly based on Melissa's, but was also influenced by [J. Cameron Thrash's
+list](https://thethrashlab.files.wordpress.com/2013/08/thrash_lab_personnel_expectations.pdf)).
+
+### My responsibilities to graduate students:
+
+-   Help develop project ideas.
+-   Meet at least bi-weekly to discuss project's progress, pitfalls
+    and plans.
+-   Support travel to at least one meeting or workshop per year.
+-   Assist with data interpretation.
+-   Proof-read and contribute to writing of manuscripts, fellowships
+    and grants.
+-   Provide training and mentorship in soft skills, including teaching.
+-   Discuss future career goals and career development, including
+    careers outside academia.
+-   Assure appropriate working conditions and resources throughout
+    the project.
+
+### My expectations of graduate students:
+
+-   Prepare for and participate in regular lab meetings.
+-   Maintain a set of lab notes, from both wet–lab and *in silico* work.
+    These need to be sufficient to reproduce results without
+    additional instructions.
+-   Contribute to writing grant proposals.
+-   Write and submit manuscripts.
+-   Proof–read manuscripts from other lab members or colleagues from
+    other groups.
+-   Attend departmental seminars.
+-   Present a poster or talk of research progress at a conference at
+    least once a year.
+-   Participate in general lab responsibilities (servers, maintenance of
+    common areas, taking turns hosting visitors etc.).
+-   Be available in the lab/office for a minimum pre-arranged set of
+    hours to facilitate interactions.
+-   Mentor at least one undergraduate student.
+-   Contribute to teaching in the department (if you are funded by the
+    university, this is an obligatory requirement).
+
+<a name="undergrads">
+
+### My responsibilities to undergraduate students:
+
+-   Prepare a well–defined, challenging but achievable project.
+-   Meet weekly to discuss project's progress, pitfalls and plans.
+-   Assist with data interpretation.
+-   Provide timely and constructive feedback on dissertation drafts,
+    presentations and job, fellowship or further education applications.
+-   Provide advice and reference letters on job, fellowship or further
+    education applications.
+-   Discuss future career goals and career development, including
+    careers outside academia.
+
+### My expectations of undergraduate students:
+
+-   Be familiar with and meet the module benchmarks such as: duration of
+    lab work, deadlines for submission of draft introduction to your
+    project, COSHH forms, format and structure of the dissertation etc..
+-   Prepare for and participate in regular lab meetings.
+-   Maintain a set of lab notes, from both wet–lab and *in silico* work.
+    These need to be sufficient to reproduce results without
+    additional instructions.
+-   Be inquisitive and proactive about your project's goals, tasks,
+    protocols and results. Ideally you will not need guidance about
+    every step of your project, but you will actively research, propose
+    and try solutions and new directions yourself.
+    
