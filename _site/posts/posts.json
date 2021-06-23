@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-06-23-unigems-preprint-is-live/",
+    "title": "UNIGEMS preprint is live!",
+    "description": "UNIGEMS project finally sees the official announcement. If you teach with plasmids and bacteria, you may find it useful.",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2021-06-23",
+    "categories": [],
+    "contents": "\nJust what is says on the tin - we have finally put our UNIGEMS paper on biorxiv: UNIGEMS: plasmids and parts to facilitate teaching on assembly, gene expression control and logic in E. coli. The paper describes the 10 plasmids we have constructed and characterised to facilitate all sorts of introductory practical classes around the concepts in synthetic biology, genetics engineering and/or general microbiology.\nI have written a longish Twitter thread describing it in more detail, so I am just going to link to it below. If you have any questions about these resources, give me a shout on Twitter.\n\nPreprint 🔊 klaxon! Educators who run microbiology, genetic engineering, #syntheticbiology labs or @iGEM teams training, you may want to check this, by @alex_siddall et al https://t.co/78Qg3IkEeQ Long 🧵 ahead. @DNesbethUCL @ProfTomEllis @SystemsSally @bethanwolfenden @NatBiotech— Jarek Bryk (@jarekbryk) June 23, 2021\n\nTL;DR: A set of 10 plasmids and parts for experiments on gene expression, AND logic and Eau d'Coli. AmpR and KanR, reporters RFP, GFP and ATF1, pLacT5- and pBAD- inducible promoters, strong and weak BIOFAB promoters and osmY for late-growth phase induction. #syntheticbiology pic.twitter.com/SVZ5TeK2rN— Jarek Bryk (@jarekbryk) June 23, 2021\n\nBest thing (IMO): each functional part of the plasmid (reporter, ORI, etc.) is flanked by the same set of overlapping primer pairs such that you can swap, replace or remove each part with just a PCR or a synthetic part + Gibson Assembly. #syntheticbiology pic.twitter.com/OUCYNIMm9e— Jarek Bryk (@jarekbryk) June 23, 2021\n\nAll plasmids are ready made and available @addgenehttps://t.co/2DWKED9SVS People have been requesting them for a while, even before our most excellent preprint! They are perfect for undergrad labs and iGEM teams' bootcamps IMO. 😎 #syntheticbiology— Jarek Bryk (@jarekbryk) June 23, 2021\n\nBonus: the plasmid maps as @snapgene files + vector illustrations to let you make high-quality figures of your assemblies are on Figshare: https://t.co/mWGNlcD8YD. Illustrations by Jason Sanders and me, available CC-BY! #syntheticbiology pic.twitter.com/Yqtl5mHvPj— Jarek Bryk (@jarekbryk) June 23, 2021\n\nThis is a project from my previous life, derailed horribly by a sudden death of my good friend, collaborator and supervisor, Dean Madden, director of @NatBiotech. This paper is dedicated to him. https://t.co/lJPtoOt2oJ— Jarek Bryk (@jarekbryk) June 23, 2021\n\nWe did some cool stuff together: https://t.co/1mEWGhIhRU (transformation kit with no frozen competent cells required, based on TSS protocol) #syntheticbiology— Jarek Bryk (@jarekbryk) June 23, 2021\n\nCheck also these materials from the original UNIGEMS project: https://t.co/eIIHwc4Hql #syntheticbiology— Jarek Bryk (@jarekbryk) June 23, 2021\n\nI picked the project up @HudSAS, then Abbie Williams and @alex_siddall, two superb placement students, turned it into something people wanted to use. Jason Sanders, another Hud student, added his magic with Illustrator. https://t.co/ZhatOa1C53 #syntheticbiology— Jarek Bryk (@jarekbryk) June 23, 2021\n\nSpecial thanks to all members of the 2013/4 @iGEM team at @UniofReading and all @HudSAS students who helped with the parts along the way!— Jarek Bryk (@jarekbryk) June 23, 2021\n\nAnd all the links in one tweet again: https://t.co/78Qg3IkEeQ https://t.co/2DWKED9SVShttps://t.co/mWGNlcD8YDhttps://t.co/1mEWGhIhRUhttps://t.co/eIIHwc4HqlThanks for reading!https://t.co/oUvZfYozru— Jarek Bryk (@jarekbryk) June 23, 2021\n\n\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-06-23T10:27:05+01:00",
+    "input_file": "unigems-preprint-is-live.knit.md"
+  },
+  {
     "path": "posts/2021-02-22-a-new-website/",
     "title": "A new website!",
     "description": "What could possibly go wrong?",
