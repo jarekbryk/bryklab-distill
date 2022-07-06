@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>BrykLab: UNIGEMS</title>
@@ -455,7 +456,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </style>
 
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1862,7 +1863,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2033,7 +2037,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2081,7 +2085,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h1>UNIGEMS</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Resources to facilitate teaching basic concepts in synthetic biology.</p></p>
+<p><p>Resources to facilitate teaching basic concepts in synthetic
+biology.</p></p>
 </div>
 
 
@@ -2092,52 +2097,172 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <ul>
 <li><a href="#introduction">Introduction</a>
 <ul>
-<li><a href="#kit-1-bacterial-transformation-and-basic-microbiological-techniques">Kit 1: Bacterial transformation and basic microbiological techniques</a></li>
-<li><a href="#kit-2-pcr-gibson-and-dna-assembly">Kit 2: PCR, Gibson and DNA assembly</a></li>
-<li><a href="#kit-3-engineering-expression">Kit 3: Engineering expression</a></li>
-<li><a href="#sequences-plasmids-videos-etc.">Sequences, plasmids, videos, etc.</a></li>
-<li><a href="#practical-synthetic-biology-workshop-for-undergraduates">Practical synthetic biology workshop for undergraduates</a></li>
+<li><a
+href="#kit-1-bacterial-transformation-and-basic-microbiological-techniques">Kit
+1: Bacterial transformation and basic microbiological
+techniques</a></li>
+<li><a href="#kit-2-pcr-gibson-and-dna-assembly">Kit 2: PCR, Gibson and
+DNA assembly</a></li>
+<li><a href="#kit-3-engineering-expression">Kit 3: Engineering
+expression</a></li>
+<li><a href="#sequences-plasmids-videos-etc.">Sequences, plasmids,
+videos, etc.</a></li>
+<li><a
+href="#practical-synthetic-biology-workshop-for-undergraduates">Practical
+synthetic biology workshop for undergraduates</a></li>
 </ul></li>
 <li><a href="#contact-me">Contact me</a></li>
 <li><a href="#funding">Funding</a></li>
 </ul>
 </nav>
 </div>
-<p>Update: the preprint for UNIGEMS is now available at biorxiv: <a href="https://www.biorxiv.org/content/10.1101/2021.06.20.449138v1">UNIGEMS: plasmids and parts to facilitate teaching on assembly, gene expression control and logic in E. coli</a>. The paper goes into detail on all the 10 plasmids in the current collection and on how you can expand, swap or replace the parts on your own.</p>
+<p>Update: the preprint for UNIGEMS is now available at biorxiv: <a
+href="https://www.biorxiv.org/content/10.1101/2021.06.20.449138v1">UNIGEMS:
+plasmids and parts to facilitate teaching on assembly, gene expression
+control and logic in E. coli</a>. The paper goes into detail on all the
+10 plasmids in the current collection and on how you can expand, swap or
+replace the parts on your own.</p>
 <h2 id="introduction">Introduction</h2>
-<p>This website presents resources developed by me at the <a href="http://www.ncbe.reading.ac.uk">National Centre for Biotechnology Education</a> at the <a href="https://www.reading.ac.uk">University of Reading</a>, under the UNIGEMS project funded by the European Commission in the 7th Framework Programme.</p>
-<p>These resources are aimed at undergraduates and are thought to facilitate training in synthetic biology at this level. We assume limited knowledge of participants about the techniques and approaches in synthetic biology, but we expect the staff presenting the resources and running the practical activities will be familiar with basic microbiological and molecular biology techniques. They will equip the participants with foundational skills, techniques and approaches with which they can build and/or modify other genetic circuits, and assess their performance.</p>
-<p>The resources are all based on intellectual-property-rights-free parts. All plasmids and parts can be used freely, and their sequences (and plasmids themselves) have been deposited in established repositories (figshare.com and addgene.com) so that everyone could learn about them and use them.</p>
-<p>These protocols and pre-selected parts allow a practical introduction to basic techniques and approaches used in synthetic biology, and also introduce good microbiological laboratory practice, a necessity for safe and responsible conduct in any synthetic biology project. They guide students in choosing their constructs and then modifying and measuring them. We believe this creates engagement and ownership that sets these practicals apart from conventional “follow the recipe for the predetermined outcome” tasks during practical work.</p>
-<h3 id="kit-1-bacterial-transformation-and-basic-microbiological-techniques">Kit 1: Bacterial transformation and basic microbiological techniques</h3>
+<p>This website presents resources developed by me at the <a
+href="http://www.ncbe.reading.ac.uk">National Centre for Biotechnology
+Education</a> at the <a href="https://www.reading.ac.uk">University of
+Reading</a>, under the UNIGEMS project funded by the European Commission
+in the 7th Framework Programme.</p>
+<p>These resources are aimed at undergraduates and are thought to
+facilitate training in synthetic biology at this level. We assume
+limited knowledge of participants about the techniques and approaches
+in synthetic biology, but we expect the staff presenting the resources
+and running the practical activities will be familiar with basic
+microbiological and molecular biology techniques. They will equip the
+participants with foundational skills, techniques and approaches with
+which they can build and/or modify other genetic circuits, and assess
+their performance.</p>
+<p>The resources are all based on intellectual-property-rights-free
+parts. All plasmids and parts can be used freely, and their sequences
+(and plasmids themselves) have been deposited in established
+repositories (figshare.com and addgene.com) so that everyone could learn
+about them and use them.</p>
+<p>These protocols and pre-selected parts allow a practical introduction
+to basic techniques and approaches used in synthetic biology, and also
+introduce good microbiological laboratory practice, a necessity for safe
+and responsible conduct in any synthetic biology project. They guide
+students in choosing their constructs and then modifying and measuring
+them. We believe this creates engagement and ownership that sets these
+practicals apart from conventional “follow the recipe for the
+predetermined outcome” tasks during practical work.</p>
+<h3
+id="kit-1-bacterial-transformation-and-basic-microbiological-techniques">Kit
+1: Bacterial transformation and basic microbiological techniques</h3>
 <p><a href="/files/synbiokit1_bacterial_transformation.pdf"><img class="floating" src="/images/synbiokit1_cover.png" /></a></p>
-<p>The first practical “kit” is very much based on the simple transformation protocol kit NCBE has been selling for the last year and aims at introducing basic microbiological techniques and practical experience of one of the foundational techniques in synthetic biology, namely bacterial transformation. Students transform <em>E. coli</em> with a plasmid DNA that confers resistance to antibiotic kanamycin, as well as a gene encoding green fluorescent protein from the jellyfish <em>Aquorea victoria</em>.</p>
-<h3 id="kit-2-pcr-gibson-and-dna-assembly">Kit 2: PCR, Gibson and DNA assembly</h3>
+<p>The first practical “kit” is very much based on the simple
+transformation protocol kit NCBE has been selling for the last year and
+aims at introducing basic microbiological techniques and practical
+experience of one of the foundational techniques in synthetic biology,
+namely bacterial transformation. Students transform <em>E. coli</em>
+with a plasmid DNA that confers resistance to antibiotic kanamycin, as
+well as a gene encoding green fluorescent protein from the jellyfish
+<em>Aquorea victoria</em>.</p>
+<h3 id="kit-2-pcr-gibson-and-dna-assembly">Kit 2: PCR, Gibson and DNA
+assembly</h3>
 <p><a href="/files/synbiokit2_pcr_gibson_dna_assembly.pdf"><img class="floating" src="/images/synbiokit2_cover.png" /></a></p>
-<p>The second practical kit introduces another foundational technique in synthetic biology - DNA assembly, as well as basic molecular biology techniques like polymerase chain reaction (PCR). Students use PCR to generate several DNA parts made on the template of plasmid DNA, and then assemble these parts in novel configurations to produce new plasmid molecules, which are then used to transform bacteria. The newly–assembled parts may also be sequenced to confirm correct assembly of the molecules. The plasmids the participants are able to create may encode:</p>
+<p>The second practical kit introduces another foundational technique in
+synthetic biology - DNA assembly, as well as basic molecular biology
+techniques like polymerase chain reaction (PCR). Students use PCR to
+generate several DNA parts made on the template of plasmid DNA, and then
+assemble these parts in novel configurations to produce new plasmid
+molecules, which are then used to transform bacteria. The
+newly–assembled parts may also be sequenced to confirm correct assembly
+of the molecules. The plasmids the participants are able to create may
+encode:</p>
 <ul>
-<li>green fluorescent protein (that emits visible light upon UV/blue light induction)</li>
-<li>red fluorescent protein that is also visible in daylight without the need to excite it</li>
-<li>a banana odour generator that makes bacteria smell like bananas upon adding isoamyl alcohol</li>
-<li>a beta-galactosidase gene that encodes an enzyme that digests lactose.</li>
+<li>green fluorescent protein (that emits visible light upon UV/blue
+light induction)</li>
+<li>red fluorescent protein that is also visible in daylight without the
+need to excite it</li>
+<li>a banana odour generator that makes bacteria smell like bananas upon
+adding isoamyl alcohol</li>
+<li>a beta-galactosidase gene that encodes an enzyme that digests
+lactose.</li>
 </ul>
-<p>It is worth emphasising that students themselves decide which of the plasmids they want to make and proceed to select appropriate PCR primers and calculate appropriate amounts of DNA parts for the assembly of their molecules of choice. A group of students may create up to four different plasmids encoding different functions or proteins. These plasmids become the basis of modifications and measurements in Kit 3.</p>
-<p>DNA assembly methods are currently a very dynamic research field, and new or modified methods appear regularly. We have decided to use Gibson Assembly, as it is a relatively straightforward method that only requires a single step, 60-minute-long reaction to combine several DNA parts in a desired order. While commercially-available reagents for Gibson Assembly are expensive, in-house preparation of the master mixture reduces the costs considerably. Importantly, Gibson Assembly allows essentially any plasmid molecule to be turned into a vector or a part for the assembly, by virtue of design and selection of PCR primers, a simple procedure that every molecular biology laboratory does regularly. We do note, however, that given an extremely rapid developments in the field of DNA sequencing and synthesis, it is quite likely that in several years all current assembly methods will become obsolete, as all and any DNA parts or whole plasmids will be ordered online and synthesised commercially at low cost.</p>
+<p>It is worth emphasising that students themselves decide which of the
+plasmids they want to make and proceed to select appropriate PCR primers
+and calculate appropriate amounts of DNA parts for the assembly of their
+molecules of choice. A group of students may create up to four different
+plasmids encoding different functions or proteins. These plasmids become
+the basis of modifications and measurements in Kit 3.</p>
+<p>DNA assembly methods are currently a very dynamic research field, and
+new or modified methods appear regularly. We have decided to use Gibson
+Assembly, as it is a relatively straightforward method that only
+requires a single step, 60-minute-long reaction to combine several DNA
+parts in a desired order. While commercially-available reagents for
+Gibson Assembly are expensive, in-house preparation of the master
+mixture reduces the costs considerably. Importantly, Gibson Assembly
+allows essentially any plasmid molecule to be turned into a vector or a
+part for the assembly, by virtue of design and selection of PCR primers,
+a simple procedure that every molecular biology laboratory does
+regularly. We do note, however, that given an extremely rapid
+developments in the field of DNA sequencing and synthesis, it is quite
+likely that in several years all current assembly methods will become
+obsolete, as all and any DNA parts or whole plasmids will be ordered
+online and synthesised commercially at low cost.</p>
 <h3 id="kit-3-engineering-expression">Kit 3: Engineering expression</h3>
 <p><a href="/files/synbiokit3_engineering_gene_expression.pdf"><img class="floating" src="../images/synbiokit3_cover.png" /></a></p>
-<p>Finally, the third practical kit expands on the DNA assembly concept: it provides a set of new, ready-made parts that allow the expression of genes on plasmids assembled using Kit 2 to be modified, using procedures learnt in Kit 2: PCR and Gibson Assembly. The concept of this kit is most similar to a definition of synthetic biology: ‘the construction of novel genetic systems and pathways from a set of pre-optimised, pre- characterised and compatible DNA sequences to design organisms with desirable characteristics’. The parts provided in the kit allow genes of interest to be ‘switched on’ constitutively, or a􏰂er adding a certain chemical. It also permits the modulation of the activity of the genes. The four genes on a plasmid in Kit 2 have been chosen so that each challenges students to quantify their activity using a different approach. While both GFP and RFP activity could be measured by fluorimeter or cytometer, RFP is also visible in daylight, enabling visual estimation of the RFP production by a given construct. The banana smell must be measured with a series of standard “banana flavours” of different strengths or by gas chromatography, and beta-galactosidase by a colorimetric enzymatic reaction.</p>
-<h3 id="sequences-plasmids-videos-etc.">Sequences, plasmids, videos, etc.</h3>
-<h4 id="plasmid-and-promoter-parts-sequences">Plasmid and promoter parts sequences</h4>
-<p>The plasmid sequences and maps used in the kits 1 and 2, p005kanRFP, p006kanGFP and p007ampGFP, as well as sequences of the promoter parts used in kit 3, are <a href="http://figshare.com/articles/search?q=practical+synthetic+biology&quick=1">available for download from Figshare.com</a>. They can be opened using <a href="http://www.snapgene.com/">SnapGene software</a> (paid, but with 1 month free trial available) or with the <a href="http://www.snapgene.com/products/snapgene_viewer/">free SnapGene viewer</a>. Moreover, the plasmid molecules were deposited in an open repository <a href="http://www.addgene.org/Jaroslaw_Bryk/">Addgene.org</a>.</p>
-<h3 id="practical-synthetic-biology-workshop-for-undergraduates">Practical synthetic biology workshop for undergraduates</h3>
+<p>Finally, the third practical kit expands on the DNA assembly concept:
+it provides a set of new, ready-made parts that allow the expression of
+genes on plasmids assembled using Kit 2 to be modified, using procedures
+learnt in Kit 2: PCR and Gibson Assembly. The concept of this kit is
+most similar to a definition of synthetic biology: ‘the construction of
+novel genetic systems and pathways from a set of pre-optimised, pre-
+characterised and compatible DNA sequences to design organisms with
+desirable characteristics’. The parts provided in the kit allow genes of
+interest to be ‘switched on’ constitutively, or a􏰂er adding a certain
+chemical. It also permits the modulation of the activity of the genes.
+The four genes on a plasmid in Kit 2 have been chosen so that each
+challenges students to quantify their activity using a different
+approach. While both GFP and RFP activity could be measured by
+fluorimeter or cytometer, RFP is also visible in daylight, enabling
+visual estimation of the RFP production by a given construct. The banana
+smell must be measured with a series of standard “banana flavours” of
+different strengths or by gas chromatography, and beta-galactosidase by
+a colorimetric enzymatic reaction.</p>
+<h3 id="sequences-plasmids-videos-etc.">Sequences, plasmids, videos,
+etc.</h3>
+<h4 id="plasmid-and-promoter-parts-sequences">Plasmid and promoter parts
+sequences</h4>
+<p>The plasmid sequences and maps used in the kits 1 and 2, p005kanRFP,
+p006kanGFP and p007ampGFP, as well as sequences of the promoter parts
+used in kit 3, are
+<a href="http://figshare.com/articles/search?q=practical+synthetic+biology&quick=1">available
+for download from Figshare.com</a>. They can be opened using
+<a href="http://www.snapgene.com/">SnapGene software</a> (paid, but with
+1 month free trial available) or with the
+<a href="http://www.snapgene.com/products/snapgene_viewer/">free
+SnapGene viewer</a>. Moreover, the plasmid molecules were deposited in
+an open repository
+<a href="http://www.addgene.org/Jaroslaw_Bryk/">Addgene.org</a>.</p>
+<h3
+id="practical-synthetic-biology-workshop-for-undergraduates">Practical
+synthetic biology workshop for undergraduates</h3>
 <p><a href="/files/practical_synthetic_biology_workshop_report.pdf"><img class="floating" src="/images/pracsynbio_cover.png" /></a></p>
-<p>The resources presented on this page were trialed during their development on a workshop for undergraduates at the University of Reading in June 2013. The <a href="../files/practical_synthetic_biology_workshop_report.pdf">report from this course is available for download</a>, as it may serve as useful guide to what approach to use to introduce basic synthetic biology techniques and approaches to students.</p>
+<p>The resources presented on this page were trialed during their
+development on a workshop for undergraduates at the University of
+Reading in June 2013.
+The <a href="../files/practical_synthetic_biology_workshop_report.pdf">report
+from this course is available for download</a>, as it may serve as
+useful guide to what approach to use to introduce basic synthetic
+biology techniques and approaches to students.</p>
 <h2 id="contact-me">Contact me</h2>
-<p>All questions, suggestions, comments and corrections regarding these materials should be directed to me <i>via</i> <a href="mailto:j.bryk@hud.ac.uk">email</a> or <a href="https://twitter.com/jarekbryk">Twitter</a>.</p>
+<p>All questions, suggestions, comments and corrections regarding these
+materials should be directed to me <i>via</i>
+<a href="mailto:j.bryk@hud.ac.uk">email</a> or
+<a href="https://twitter.com/jarekbryk">Twitter</a>.</p>
 <h2 id="funding">Funding</h2>
 <p><img class="floating" src="/images/euflag.png" /></p>
-<p>This project has received funding from the European Union’s Seventh Framework Programme for research, technological development and demonstration under grant agreement No. 300038.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p>This project has received funding from the European Union’s Seventh
+Framework Programme for research, technological development and
+demonstration under grant agreement No. 300038.</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
