@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2022-07-06-chimeras-paper-is-published/",
+    "title": "Chimeras paper is published",
+    "description": "PhD-students-driven paper is published in Molecular Ecology Resources. Read it to learn more about chimeras in RAD-seq.",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2022-07-08",
+    "categories": [],
+    "contents": "\nThe wealth of genotyping that we have done in the last 5 years (and\nby “we”, I mean Marisa and Rohan), coupled with the upgraded quaddRAD\ngenotyping protocol, enabled us to characterise and quantify the various\nchimeric sequences in a sequencing output and assess their impact on the\ninterpretation of the results. We knew we would be able to do this once\nMarisa switched to the four-adapter protocol by Franchini et al., and\nshe and a fellow PhD student at Huddersfield, Bernardo, went away with\nthe analysis. Rohan’s project delivered another few hundreds of samples\ngenotyped with the same adapters and protocol, and in two different PCR\nsetups. We had all the pieces for a really high-powered study. So, what\ndid we find?\nThe bad news is that chimeras are there and most of the protocols do\nnot allow for their identification at all, particularly if you\nput several multiplexed groups of samples on a single lane (as you most\nlikely do). The good news is that if you maintain good quality standards\nin your wet-lab and computational pipeline (high molecular weight DNA,\nhigh coverage filters etc.), impact of the chimeras is minimal. We also\nhave found that you should probably not attempt barcode rescue beyond 2\nmismatches, as above that level you may be mainly creating chimeric\nrather than recovering actual reads.\nEnjoy the paper and congratulations to all involved!\nIdentification\nand quantification of chimeric sequencing reads in a highly multiplexed\nRAD-seq protocol\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-07-08T15:25:33+01:00",
+    "input_file": "chimeras-paper-is-published.knit.md"
+  },
+  {
     "path": "posts/2021-06-23-unigems-preprint-is-live/",
     "title": "UNIGEMS preprint is live!",
     "description": "UNIGEMS project finally sees the official announcement. If you teach with plasmids and bacteria, you may find it useful.",
