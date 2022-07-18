@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2022-07-18-congratulations-dr-rohan-raval/",
+    "title": "Congratulations, Dr Rohan Raval!",
+    "description": "Rohan is now a Doctor!",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2022-07-18",
+    "categories": [],
+    "contents": "\nFinally! Rohan has actually been a doctor for a good while now, but\nonly now we were able to put a hat on it. It is my great pleasure to\ncongratulate him on successful completion of his doctoral thesis\n“Ecological and population genomics of the wild yellow-necked mouse,\nApodemus flavicollis”. He is now Dr Rohan Raval and the second\nalumni of the BrykLab. Already since graduation, Rohan has been working\nas a computational biologist in the NHS Blood and Transplant Division in\nLondon. Well done all around :-)\nRohan with his supervisor on graduation\nday :-)\n\n\n",
+    "preview": {},
+    "last_modified": "2022-07-18T16:03:51+01:00",
+    "input_file": "congratulations-dr-rohan-raval.knit.md"
+  },
+  {
     "path": "posts/2022-07-06-chimeras-paper-is-published/",
     "title": "Chimeras paper is published",
     "description": "PhD-students-driven paper is published in Molecular Ecology Resources. Read it to learn more about chimeras in RAD-seq.",
