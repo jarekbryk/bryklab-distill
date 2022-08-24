@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rmd
+.DS_Store
+images/*
+files/*
+_posts
+_site.yml
+bryklab-distill.Rproj
