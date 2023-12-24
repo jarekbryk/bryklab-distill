@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2023-12-24-unigems-paper-is-published/",
+    "title": "UNIGEMS paper is published",
+    "description": "Open access, and with extra resources, too.",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2023-12-24",
+    "categories": [],
+    "contents": "\nThis is a test. More to follow.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2023-12-24T21:49:26+01:00",
+    "input_file": "unigems-paper-is-published.knit.md"
+  },
+  {
     "path": "posts/2022-07-18-congratulations-dr-rohan-raval/",
     "title": "Congratulations, Dr Rohan Raval!",
     "description": "Rohan is now a Doctor!",
