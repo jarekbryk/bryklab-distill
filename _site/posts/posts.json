@@ -17,6 +17,23 @@
     "input_file": {}
   },
   {
+    "path": "posts/2023-01-07-we-have-won/",
+    "title": "We have won!",
+    "description": "STLT team gets an award from THE",
+    "author": [
+      {
+        "name": "Jarek Bryk",
+        "url": "https://bryklab.net"
+      }
+    ],
+    "date": "2023-07-01",
+    "categories": [],
+    "contents": "\nThe Strategic Teaching and Learning Team, where I have worked on the HuDAP - Huddersfield Differential Attainment Project (see the research page), has been awarded the Times Higher Education Award 2022 for the Outstanding Contribution to Equality, Diversity and Inclusion. Here is the link to their page with the results and our photo! (See more photos at their Fickr album.)\n\n\n\n\n",
+    "preview": {},
+    "last_modified": "2025-02-14T19:57:36+00:00",
+    "input_file": "we-have-won.knit.md"
+  },
+  {
     "path": "posts/2022-07-18-congratulations-dr-rohan-raval/",
     "title": "Congratulations, Dr Rohan Raval!",
     "description": "Rohan is now a Doctor!",
