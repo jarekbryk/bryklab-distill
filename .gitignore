@@ -3,9 +3,9 @@
 .RData
 .Ruserdata
 *.Rmd
-.DS_Store
 images/*
 files/*
+.DS_Store
 _posts
 _site.yml
 bryklab-distill.Rproj
